@@ -1,0 +1,2 @@
+unit.name = "<color=#FFF44F>Lv. " .. unit.level .. '\n' .. "</color>" .. unit.player.name -- 맵에 자동생성으로 NPC 만드시고 스크립트 이벤트에다가 Level.lua의 내용을 붙여 넣으시면 됩니다.
+unit.SendUpdated() -- 맵에 자동생성으로 NPC 만드시고 스크립트 이벤트에다가 Level.lua의 내용을 붙여 넣으시면 됩니다.

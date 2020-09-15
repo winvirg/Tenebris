@@ -16,6 +16,12 @@ git commit -m <mensagem> : Faz um commit com as alterações indexadas com a <me
 
 git push origin <branch-remota> : Empurra da branch local para <branch-remota>;
 
+git checkout <branch> : Muda para <branch> definida;
+
+git checkout -b <branch> : Cria uma nova <branch> local a partir do ponto atual;
+
+git branch -D <branch> : Apaga uma <branch> local definida;
+
 git restore (pasta ou arquivo) : Restaura uma pasta ou arquivo modificado/excluido
 
 git restore . : Restaura todos os arquivos

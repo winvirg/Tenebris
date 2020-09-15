@@ -1,6 +1,6 @@
 
---서버에서 클라이언트 크기 가져오기
---스크립트로 ClientWidth()를 실행시킨후 월드변수와 해당변수와 연결 해주면 됩니다.
+--Obtenha o tamanho do cliente do servidor
+--Como um script ClientWidth()Após a execução, você pode conectar a variável global e a variável correspondente..
 function ClientWidth()
     Server.FireEvent("GetW")
 end

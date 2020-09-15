@@ -1,10 +1,23 @@
 Link video explicativo : https://drive.google.com/drive/folders/1FHxOog52LNtJXQkSCVxV2ninwy_uq2WU
-git clone (link) : cria a pasta do arquivo na maquina
-git pull : baixa os arquivos modificados
-git status : mostra se tem arquivos alterados
-git add . : upa todos os arquivos pra branch
-git add (nome arquivo) : upa o arquivo pra branch
-git commit -m "comentario" : comenta antes de mandar pra master
-git push origin master : upa da branch para a master
-git restore (pasta ou arquivo) : restaura uma pasta ou arquivo modificado/excluido
-git restore . : restaura todos os arquivos
+
+git clone (link) : Clona repositorio remoto na maquina local;
+
+git status : Mostra o nome da branch atual, se ela está atualizada com a branch remota, se há alterações na não indexadas(arquivos em vermelho) e se existem alterações indexadas(arquivos de verde) que ainda não foram commitadas;
+
+git log : Mostra o log da branch local atual;
+
+git pull orgin <branch> : Puxa as alterações da branch referenciada(modificações);
+
+git add . : Adiciona todas as alterações para a staging (indexa alterações dos arquivos); 
+
+git add <nome arquivo>.. : Adiciona as alterações de um <arquivo> definido para a staging (indexa alterações dos arquivos); 
+
+git commit -m <mensagem> : Faz um commit com as alterações indexadas com a <mensagem> definida;
+
+git push origin <branch-remota> : Empurra da branch local para <branch-remota>;
+
+git restore (pasta ou arquivo) : Restaura uma pasta ou arquivo modificado/excluido
+
+git restore . : Restaura todos os arquivos
+
+git reset <codigo-commit> --hard : Volta o repositório para o estado do commit definido
